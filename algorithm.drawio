@@ -18,6 +18,7 @@
             <mxPoint x="470" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        
         <mxCell id="vES_-5wuRuhPrdAIuNvl-5" value="Не конец исходного массива?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="380" width="160" height="140" as="geometry" />
         </mxCell>
