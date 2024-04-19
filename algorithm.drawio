@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2024-04-19T13:22:29.630Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="0-UjveOyvdIVekzC-JOR" version="24.2.5" type="device">
+  <diagram name="Страница — 1" id="hIwDPBE5IHdKA5I5i13y">
+    <mxGraphModel dx="677" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-2" value="начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-3" value="&lt;div&gt;Ввод массива строк&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-4" value="Инициализация нового массива res_mas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-5" target="vES_-5wuRuhPrdAIuNvl-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-5" value="Не конец исходного массива?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-7" value="проверка длины строки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-8" target="vES_-5wuRuhPrdAIuNvl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-8" value="длина &amp;lt;= 3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="690" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-2" target="vES_-5wuRuhPrdAIuNvl-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-3" target="vES_-5wuRuhPrdAIuNvl-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="330" as="sourcePoint" />
+            <mxPoint x="210" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-4" target="vES_-5wuRuhPrdAIuNvl-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="340" as="sourcePoint" />
+            <mxPoint x="220" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-5" target="vES_-5wuRuhPrdAIuNvl-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="350" as="sourcePoint" />
+            <mxPoint x="230" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-7" target="vES_-5wuRuhPrdAIuNvl-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="360" as="sourcePoint" />
+            <mxPoint x="240" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-8" target="vES_-5wuRuhPrdAIuNvl-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="370" as="sourcePoint" />
+            <mxPoint x="250" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="745" />
+              <mxPoint x="170" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-15" target="vES_-5wuRuhPrdAIuNvl-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="890" />
+              <mxPoint x="100" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-15" value="добавить в массив res_mas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-18" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="720" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-19" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="870" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-20" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="520" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-21" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="800" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-22" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="420" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vES_-5wuRuhPrdAIuNvl-24" target="vES_-5wuRuhPrdAIuNvl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-24" value="вывод res_mas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="950" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vES_-5wuRuhPrdAIuNvl-25" value="конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
